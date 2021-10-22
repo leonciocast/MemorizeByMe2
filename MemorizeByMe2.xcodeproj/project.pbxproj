@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B94B9EA32721BA7200DF63EA /* CardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94B9EA22721BA7200DF63EA /* CardGame.swift */; };
+		B94B9EA52721CDB400DF63EA /* CardmodelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94B9EA42721CDB400DF63EA /* CardmodelView.swift */; };
+		B96377C427231E61001EC615 /* Ext_Array_Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96377C327231E61001EC615 /* Ext_Array_Index.swift */; };
+		B96377C6272326C6001EC615 /* AdaptiveGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96377C5272326C6001EC615 /* AdaptiveGrid.swift */; };
 		B9FED3C7262734B300A9A2DA /* MemorizeByMe2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FED3C6262734B300A9A2DA /* MemorizeByMe2App.swift */; };
 		B9FED3C9262734B300A9A2DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FED3C8262734B300A9A2DA /* ContentView.swift */; };
 		B9FED3CB262734B400A9A2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FED3CA262734B400A9A2DA /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B94B9EA22721BA7200DF63EA /* CardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGame.swift; sourceTree = "<group>"; };
+		B94B9EA42721CDB400DF63EA /* CardmodelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardmodelView.swift; sourceTree = "<group>"; };
+		B96377C327231E61001EC615 /* Ext_Array_Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext_Array_Index.swift; sourceTree = "<group>"; };
+		B96377C5272326C6001EC615 /* AdaptiveGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveGrid.swift; sourceTree = "<group>"; };
 		B9FED3C3262734B300A9A2DA /* MemorizeByMe2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorizeByMe2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FED3C6262734B300A9A2DA /* MemorizeByMe2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeByMe2App.swift; sourceTree = "<group>"; };
 		B9FED3C8262734B300A9A2DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,17 +64,21 @@
 				B9FED3C8262734B300A9A2DA /* ContentView.swift */,
 				B9FED3CA262734B400A9A2DA /* Assets.xcassets */,
 				B9FED3CF262734B400A9A2DA /* Info.plist */,
-				B9FED3CC262734B400A9A2DA /* Preview Content */,
+				B9FED3CC262734B400A9A2DA /* | */,
+				B94B9EA22721BA7200DF63EA /* CardGame.swift */,
+				B94B9EA42721CDB400DF63EA /* CardmodelView.swift */,
+				B96377C327231E61001EC615 /* Ext_Array_Index.swift */,
+				B96377C5272326C6001EC615 /* AdaptiveGrid.swift */,
 			);
 			path = MemorizeByMe2;
 			sourceTree = "<group>";
 		};
-		B9FED3CC262734B400A9A2DA /* Preview Content */ = {
+		B9FED3CC262734B400A9A2DA /* | */ = {
 			isa = PBXGroup;
 			children = (
 				B9FED3CD262734B400A9A2DA /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			path = "|";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96377C427231E61001EC615 /* Ext_Array_Index.swift in Sources */,
+				B94B9EA52721CDB400DF63EA /* CardmodelView.swift in Sources */,
 				B9FED3C9262734B300A9A2DA /* ContentView.swift in Sources */,
+				B96377C6272326C6001EC615 /* AdaptiveGrid.swift in Sources */,
 				B9FED3C7262734B300A9A2DA /* MemorizeByMe2App.swift in Sources */,
+				B94B9EA32721BA7200DF63EA /* CardGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +284,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MemorizeByMe2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MemorizeByMe2/\"";
+				DEVELOPMENT_TEAM = 27GL7UQZGX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MemorizeByMe2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -289,7 +306,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MemorizeByMe2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MemorizeByMe2/\"";
+				DEVELOPMENT_TEAM = 27GL7UQZGX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MemorizeByMe2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
